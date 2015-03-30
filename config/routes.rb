@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'resume/sresa'
+
+  get 'mystaticpage/mine'
+
+  get 'mystaticpage/me'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
